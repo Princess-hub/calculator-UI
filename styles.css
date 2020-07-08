@@ -1,0 +1,39 @@
+.container {
+	padding: 60px;
+}
+.no {
+	background-color: lightgrey;
+}
+.no h1 {
+	float: right;
+}	
+
+.yes {
+	background-color: silver;
+	border: 1px solid black;
+	text-align: center;
+}
+.or {
+	background-color: orange;
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+body:hover {
+	background-color: green;
+	border-color: red;
+
+}
+
+.container:hover {
+	background-color: blue;
+	
+
+}
+
+@media screen and (min-width: 480px) {
+	body {
+		background-color: lightgreen;
+	}
+}
